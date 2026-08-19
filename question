@@ -1,0 +1,28 @@
+LeetCode #6 — Zigzag Conversion
+
+Difficulty: Medium
+Language: C++
+
+Problem:
+Given a string s and an integer numRows, arrange the characters of the string in a zigzag pattern across the given number of rows, then read the characters row by row to produce the converted string.
+
+Example 1:
+
+Input:  s = "PAYPALISHIRING", numRows = 3
+Output: "PAHNAPLSIIGYIR"
+
+Example 2:
+
+Input:  s = "PAYPALISHIRING", numRows = 4
+Output: "PINALSIGYAHRPI"
+
+Example 3:
+
+Input:  s = "A", numRows = 1
+Output: "A"
+
+Constraints:
+
+1 <= s.length <= 1000
+s contains English letters, , and .
+1 <= numRows <= 1000
